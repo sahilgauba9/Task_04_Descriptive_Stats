@@ -9,8 +9,9 @@ Polars</h3>
 
 Across all three methods, the goal is to compute the same set of statistics—mean, count, standard deviation, minimum, maximum, and categorical frequencies. 
 The scripts also generate grouped summaries by page_id and, when relevant, by both page_id and ad_id.
-
+'''
 ├── pure_python_stats.py       # Implementation using only Python’s standard library
 ├── pandas_stats.py            # Implementation using the pandas library
 ├── polars_stats.py            # Implementation using the polars library
 ├── README.md                  # Documentation
+'''
